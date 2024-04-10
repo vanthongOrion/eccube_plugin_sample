@@ -36,6 +36,8 @@ class ConfigController extends AbstractController
         $form = $this->createForm(ConfigType::class, $Config);
         $form->handleRequest($request);
 
+        // Dump request
+        dump($request);
         if ($form->isSubmitted() && $form->isValid()) {
             $Config = $form->getData();
             $this->entityManager->persist($Config);
