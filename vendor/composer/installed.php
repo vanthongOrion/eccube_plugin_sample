@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'ec-cube/ec-cube',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => '3c29ebf045325e3f48d40298b9aafb0396881807',
+        'pretty_version' => '4.2.3',
+        'version' => '4.2.3.0',
+        'reference' => 'daed16e5da3c6847b232af24b06d76d55d8cbd42',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -281,9 +281,9 @@
             'dev_requirement' => false,
         ),
         'ec-cube/ec-cube' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '3c29ebf045325e3f48d40298b9aafb0396881807',
+            'pretty_version' => '4.2.3',
+            'version' => '4.2.3.0',
+            'reference' => 'daed16e5da3c6847b232af24b06d76d55d8cbd42',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
